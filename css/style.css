@@ -1,0 +1,99 @@
+body{
+    background-color: #5B93E3;
+    font-family: 'Courier New', Courier, monospace;
+    width: 550px;
+    margin: auto;
+}
+
+table {
+    border: 1px solid #1A5CBA;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 500px;
+    box-shadow: 5px 5px 5px black;
+}
+
+td{
+    padding: 7px;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: green;
+    color: white;
+    font-size: 27px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    font-family: 'Play', sans-serif;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 2px #999;
+}
+
+input[type="button"].numbers{
+    background-color: #BFD9FD;
+    color: black;
+    border: 1px solid #D9EFF8;
+}
+
+input[type="button"].operators{
+    background-color: #84AEEB;
+    border: 1px solid #84AEEB;
+    color: black;
+}
+
+input[type="button"].operators:hover{
+    background-color: #B8D6E8;
+    border: 1px solid #B8D6E8;
+}
+
+input[type="button"].enter{
+    background-color: #0B61DD;
+    border: 1px solid #0B61DD;
+}
+
+input[type="button"].enter:hover{
+    background-color: #B8D6E8;
+    border: 1px solid #B8D6E8;
+    color: black;
+}
+
+input[type="button"].numbers:hover{
+    background-color: #B8D6E8;
+}
+
+input[type="button"]:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+input[type="button"]:active {
+    background-color: darkgreen;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+input[type="text"] {
+    font-size: 30px;
+    padding: 5px;
+    height: 30px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    background: none;
+    margin: 5px -2px;
+}
+#previous{
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    background: none;
+    margin: 5px -2px;
+}
